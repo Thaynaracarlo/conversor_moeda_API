@@ -38,7 +38,6 @@ document.getElementById('currency-form').addEventListener('submit', async functi
  
     // Ele encontra o valor que deseja converter para o valor convertido e guarda dentro dessa variável
  
- 
     if(exchangeRate){
         const convertedValue = valor * exchangeRate; // Guarda o resultado
  
